@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+
+<div class="container">
+    <div class="row"></div>
+        <div class="col-md-12 col-sm-12">
+            <H1>{{ single_post.title }}</H1>
+            <hr>
+            Autor : <strong>{{ single_post.author }}</strong> | opublikowano : <strong>{{ single_post.published_date }}</strong><br>
+
+            <img src="../static/{{ single_post.post_foto }}">
+
+            <hr>
+            <p>{{ single_post.text|safe }}</p>
+            <p>{{ single_post.text2|safe }}</p>
+            <hr>
+
+            <hr>
+            <a href="{% url 'post_list' %}">Powrót do listy postów</a>
+        </div>
+    </div>
+</div>
+<br><br>
+
+
+
+{% endblock %}

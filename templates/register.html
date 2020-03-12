@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<h1>ZAREJESTRUJ KONTO</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ Registerform.as_p }}
+    <button type="submit">Rejestruj</button>
+</form>
+
+{% endblock %}

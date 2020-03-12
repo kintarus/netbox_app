@@ -1,0 +1,649 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+{% include 'slide.html' %}
+
+<!-- WSZYSTKO -->
+
+
+<!-- ABOUT US -->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12" style="margin:30px;">
+						</div>
+					</div>
+				</div>
+
+				<section class="about-us custom-section-padding" id="about-us">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6 visible-sm-none">
+								<img class="img-fluid mb-4 appear-animation animated bounceInLeft appear-animation-visible" data-appear-animation="bounceInLeft" data-appear-animation-delay="0" data-appear-animation-duration="1s" style="animation-duration:1s; animation-delay: 0ms; margin-top:70px;" src="{% static 'images/30lat-2.png' %}" alt="30lat">
+
+								<!--<img src="img/blisko.png" class="img-fluid position-absolute  d-sm-block appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" style="top: 10%; left: -5%;" alt="" />
+								<img src="img/lat.png" class="img-fluid position-absolute  d-sm-block appear-animation" data-appear-animation="expandIn" style="top: -9%; left: 60%;" alt="" />
+								<img src="img/30lat-samo.png" class="img-fluid position-absolute appear-animation mb-2" data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" style="left: 20%; top:15%;"/>-->
+							</div>
+							<div class="col-md-6 col-lg-6 col-sm-12">
+								<div class="content-grid custom-content-grid mt-5 mb-4">
+									<div class="row content-grid-row">
+										<div class="content-grid-item col-lg-6 bg-color-light p-4">
+											<div class="counters">
+												<div class="counter custom-sm-counter-style">
+													<!--<img class="counter-icon" src="img/demos/business-consulting/icons/icon-1.png" alt />-->
+													<label>ponad</label>
+													<strong class="text-color-primary custom-primary-font" data-to="400" data-append="+">0</strong>
+													<label style="margin-top:10px;"><b>PRACOWNIKÓW</b></label>
+												</div>
+											</div>
+										</div>
+										<div class="content-grid-item col-lg-6 bg-color-light p-4">
+											<div class="counters">
+												<div class="counter margin-style-2 custom-sm-counter-style">
+													<!--<img class="counter-icon" src="img/demos/business-consulting/icons/icon-2.png" alt />-->
+													<label>ponad</label>
+													<strong class="text-color-primary custom-primary-font" data-to="156" data-append=" mln">0</strong>
+													<label style="margin-top:10px;"><b>OBRÓT W ROKU 2018</b></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row content-grid-row">
+										<div class="content-grid-item col-lg-6 bg-color-light p-4">
+											<div class="counters">
+												<div class="counter custom-sm-counter-style">
+													<!--<img class="counter-icon" src="img/demos/business-consulting/icons/icon-3.png" alt />-->
+													<strong class="text-color-primary custom-primary-font" data-to="13000" >0</strong>
+													<label style="margin-top:10px;"><b>MIEJSC PALETOWYCH</b></label>
+												</div>
+											</div>
+										</div>
+										<div class="content-grid-item col-lg-6 bg-color-light p-4">
+											<div class="counters">
+												<div class="counter margin-style-2 custom-sm-counter-style">
+													<!--<img class="counter-icon" src="img/demos/business-consulting/icons/icon-4.png" alt />-->
+													<strong class="text-color-primary custom-primary-font" data-to="400" data-append=" mln">0</strong>
+													<label style="margin-top:10px;"><b>OPAKOWAŃ ROCZNIE</b></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12" style="margin:40px;">
+						</div>
+					</div>
+				</div>
+
+				<!-- KONIEC ABOUT US -->
+
+
+				<!-- CO ROBIMY -->
+
+				<section class="section section-no-border my-0" >
+
+
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12" style="margin-bottom:50px;">
+							<h4 class="font-weight-bold text-color-dark text-12 line-height-2">CO ROBIMY</h4>
+							<div class="divider divider-primary divider-small">
+									<hr class="mx-auto w-25 custom-h-1 appear-animation animated dividerProgress25 appear-animation-visible" data-appear-animation="dividerProgress25" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="container" style="padding-bottom:40px;">
+					<div class="row">
+						<div class="col-md-3 col-lg-3 mb-5 mb-lg-0">
+
+							<div class="card flip-card flip-card-3d bg-transparent text-center rounded-0">
+								<div class="flip-front p-5">
+									<div class="flip-content my-4">
+										<img class="img-fluid" src="{% static 'images/tektura-lita.png' %}" width="90%">
+
+										<h4 class="font-weight-bold text-color-dark text-5 line-height-2">OPAKOWANIA <br>Z TEKTURY LITEJ</h4>
+
+									</div>
+								</div>
+								<div class="flip-back d-flex align-items-center p-5" style="background-image: url({% static 'images/tektura-lita2.png' %}); background-size: cover; background-position: center;">
+									<div class="flip-content align-items-center">
+										<h3 class="font-weight-bold text-color-dark">OPAKOWANIA <br>Z TEKTURY LITEJ</h3>
+										<p class="font-weight-light text-color-light opacity-0"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-lg-3 mb-5 mb-lg-0">
+
+							<div class="card flip-card flip-card-3d bg-transparent text-center rounded-0">
+								<div class="flip-front p-5">
+									<div class="flip-content my-4">
+										<img class="img-fluid" src="{% static 'images/opakowania-kaszerowane.png' %}" width="90%">
+
+										<h4 class="font-weight-bold text-color-dark text-5 line-height-2">OPAKOWANIA<br>KASZEROWANE<br></h4>
+									</div>
+								</div>
+								<div class="flip-back d-flex align-items-center p-5" style="background-image: url({% static 'images/opakowania-kaszerowane2.png' %}); background-size: cover; background-position: center;">
+									<div class="flip-content align-items-center">
+										<h3 class="font-weight-bold text-color-dark">OPAKOWANIA KASZEROWANE</h3>
+										<p class="font-weight-light text-color-light opacity-0"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-lg-3 mb-5 mb-lg-0">
+
+							<div class="card flip-card flip-card-3d bg-transparent text-center rounded-0">
+								<div class="flip-front p-5">
+									<div class="flip-content my-4">
+										<img class="img-fluid" src="{% static 'images/opakowania-zbiorcze.png' %}" width="90%">
+
+										<h4 class="font-weight-bold text-color-dark text-5 line-height-2">OPAKOWANIA <br>ZBIORCZE</h4>
+									</div>
+								</div>
+								<div class="flip-back d-flex align-items-center p-5" style="background-image: url({% static 'images/opakowania-zbiorcze2.png' %}); background-size: cover; background-position: center;">
+									<div class="flip-content align-items-center">
+										<h3 class="font-weight-bold text-color-dark">OPAKOWANIA ZBIORCZE</h3>
+										<p class="font-weight-light text-color-light opacity-0"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-lg-3 mb-5 mb-lg-0">
+
+							<div class="card flip-card flip-card-3d bg-transparent text-center rounded-0">
+								<div class="flip-front p-5">
+									<div class="flip-content my-4">
+										<img class="img-fluid" src="{% static 'images/opakowania-kaszerowane.png' %}" width="90%">
+
+										<h4 class="font-weight-bold text-color-dark text-5 line-height-2">OPAKOWANIA<br>E-COMMERCE</h4>
+									</div>
+								</div>
+								<div class="flip-back d-flex align-items-center p-5" style="background-image: url({% static 'images/opakowania-kaszerowane2.png' %}); background-size: cover; background-position: center;">
+									<div class="flip-content align-items-center">
+										<h3 class="font-weight-bold text-color-dark">OPAKOWANIA<br>E-COMMERCE</h3>
+										<p class="font-weight-light text-color-light opacity-0"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				</section>
+
+				<!-- CO ROBIMY KONIEC -->
+
+
+				<!-- INNE CO ROBIMY
+				<section class="section section-no-border my-0" >
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12" style="margin-bottom:50px;">
+							<h4 class="font-weight-bold text-color-dark text-12 line-height-2">CO ROBIMY</h4>
+							<div class="divider divider-primary divider-small">
+									<hr class="mx-auto w-25 custom-h-1 appear-animation animated dividerProgress25 appear-animation-visible" data-appear-animation="dividerProgress25" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col-lg-3">
+									<div class="text-center">
+										<article class="thumb-info custom-thumb-info-style-2">
+
+											<span class="thumb-info-caption bg-color-light text-center p-3">
+												<h4>
+													<a href="#" class="text-decoration-none text-color-dark">
+														Ogłoszenie o pracę 1
+													</a>
+												</h4>
+
+											</span>
+											<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ</a><br><br>
+										</article>
+
+									</div>
+						</div>
+
+						<div class="col-lg-3">
+									<div class="text-center">
+										<article class="thumb-info custom-thumb-info-style-2">
+											<span class="thumb-info-wrapper m-0">
+												<a href="#" class="text-decoration-none" title="Porto Website">
+													<img src="img/demos/one-page-agency/cases/case-1.jpg" class="img-fluid" alt="">
+												</a>
+											</span>
+											<span class="thumb-info-caption bg-color-light text-center p-3">
+												<h4>
+													<a href="#" class="text-decoration-none text-color-dark">
+														PORTO WEBSITE
+													</a>
+												</h4>
+												<p class="custom-thumb-info-category">WEBSITE</p>
+											</span>
+										</article><br>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ WIĘCEJ</a>
+									</div>
+						</div>
+
+						<div class="col-lg-3">
+									<div class="text-center">
+										<article class="thumb-info custom-thumb-info-style-2">
+											<span class="thumb-info-wrapper m-0">
+												<a href="#" class="text-decoration-none" title="Porto Website">
+													<img src="img/demos/one-page-agency/cases/case-1.jpg" class="img-fluid" alt="">
+												</a>
+											</span>
+											<span class="thumb-info-caption bg-color-light text-center p-3">
+												<h4>
+													<a href="#" class="text-decoration-none text-color-dark">
+														PORTO WEBSITE
+													</a>
+												</h4>
+												<p class="custom-thumb-info-category">WEBSITE</p>
+											</span>
+										</article><br>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ WIĘCEJ</a>
+									</div>
+						</div>
+
+						<div class="col-lg-3">
+									<div class="text-center">
+										<article class="thumb-info custom-thumb-info-style-2">
+											<span class="thumb-info-wrapper m-0">
+												<a href="#" class="text-decoration-none" title="Porto Website">
+													<img src="img/demos/one-page-agency/cases/case-1.jpg" class="img-fluid" alt="">
+												</a>
+											</span>
+											<span class="thumb-info-caption bg-color-light text-center p-3">
+												<h4>
+													<a href="#" class="text-decoration-none text-color-dark">
+														PORTO WEBSITE
+													</a>
+												</h4>
+												<p>WEBSITE</p>
+											</span>
+										</article><br>
+										<a href="#" class="btn btn-primary btn-modern text-color-light font-weight-bold">ZOBACZ WIĘCEJ</a>
+									</div>
+						</div>
+					</div>
+
+				</div>
+				</section>
+				<!-- INNE CO ROBIMY -->
+
+				<!-- WARTOŚCI -->
+
+				<div class="container-fluid">
+					<div class="row featured-boxes-full featured-boxes-full-scale">
+						<div class="col-lg-1">
+						</div>
+						<div class="col-lg-2 featured-box-full" style="background-color:#da261b;">
+							<img class="img-fluid" src="{% static 'images/ikony/koncentracja-ikona.svg' %}">
+							<br><br>
+							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
+						</div>
+						<div class="col-lg-2 featured-box-full" style="background-color:#3e87cb;">
+							<img class="img-fluid" src="{% static 'images/ikony/zrownowazony-ikona.svg' %}">
+							<br><br>
+							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
+						</div>
+						<div class="col-lg-2 featured-box-full" style="background-color:#c86ba8;">
+							<img class="img-fluid" src="{% static 'images/ikony/doskonalosc-ikona.svg' %}">
+							<br><br>
+							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
+						</div>
+						<div class="col-lg-2 featured-box-full" style="background-color:#8fad15;">
+							<img class="img-fluid" src="{% static 'images/ikony/najwyzsza-ikona.svg' %}">
+							<br><br>
+							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
+						</div>
+						<div class="col-lg-2 featured-box-full" style="background-color:#ff9b33;">
+							<img class="img-fluid" src="{% static 'images/ikony/wiarygodny-ikona.svg' %}">
+							<br><br>
+							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
+						</div>
+						<div class="col-lg-1">
+						</div>
+					</div>
+				</div>
+
+				<!-- KONIEC WARTOŚCI -->
+
+				<!-- OFERTY -->
+
+				<section>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12" style="margin-bottom:50px; padding-top:40px;">
+							<h4 class="font-weight-bold text-color-dark text-12 line-height-2">Aktualnie poszukujemy</h4>
+							<div class="divider divider-primary divider-small">
+									<hr class="mx-auto w-25 custom-h-1 appear-animation animated dividerProgress25 appear-animation-visible" data-appear-animation="dividerProgress25" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+					<div class="container">
+						<div class="row">
+
+							<div class="owl-carousel carousel-center-active-item-2 nav-style-4 mb-4 pb-3" data-plugin-options="{'items': 1, 'loop': true, 'nav': true, 'dots': false}">
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="demo-law-firm-news-detail.html">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="#">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="#">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">"The best template i had work on!!!!!"</p>
+								</div>
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="#">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="#">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+
+								<div>
+									<div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+										<div class="author">
+											<h4 class="text-5 mb-0">Nazwa stanowiska</h4>
+											<span class="opacity-7">Miasto</span>
+										</div>
+										<span class="star-rating">
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+											<i class="fas fa-star text-color-dark"></i>
+										</span>
+									</div>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula, sapien at feugiat eleifend, sem erat gravida risus, ac cursus ante purus sed felis. Fusce convallis luctus lobortis</p>
+									<br>
+									<p><a class="mt-3" href="#">Zobacz ofertę <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<!-- KONIEC OFERTY -->
+
+
+
+				<!--<div class="container py-4">
+					<div class="row pt-4 mt-5">
+						<div class="col">
+							<div class="row pt-2 clearfix">
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 reverse appear-animation" data-appear-animation="fadeInRightShorter">
+										<div class="feature-box-icon">
+											<i class="icon-user-following icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">Customer Support</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInLeftShorter">
+										<div class="feature-box-icon">
+											<i class="icon-layers icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">Sliders</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 reverse appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
+										<div class="feature-box-icon">
+											<i class="icon-calculator icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">HTML5</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
+										<div class="feature-box-icon">
+											<i class="icon-star icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">Icons</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 reverse appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+										<div class="feature-box-icon">
+											<i class="icon-drop icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">Colors</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400">
+										<div class="feature-box-icon">
+											<i class="icon-mouse icons text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2">Buttons</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row pb-5 mb-5 mt-3">
+						<div class="col text-center">
+							<a href="#" class="btn btn-primary btn-px-5 py-3 font-weight-semibold text-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">LEARN MORE</a>
+						</div>
+					</div>
+				</div>-->
+
+				<!--<section class="section section-secondary border-0 py-0 m-0 appear-animation" data-appear-animation="fadeIn">
+					<div class="container">
+						<div class="row align-items-center justify-content-center justify-content-lg-between pb-5 pb-lg-0">
+							<div class="col-lg-5 order-2 order-lg-1 pt-4 pt-lg-0 pb-5 pb-lg-0 mt-5 mt-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
+								<h2 class="font-weight-bold text-color-light text-7 mb-2">Who We Are</h2>
+								<p class="lead font-weight-light text-color-light text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
+								<p class="font-weight-light text-color-light text-2 mb-4 opacity-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendun magna ex, et faucibus lacus venenatis eget</p>
+								<a href="#" class="btn btn-dark-scale-2 btn-px-5 btn-py-2 text-2">LEARN MORE</a>
+							</div>
+							<div class="col-9 offset-lg-1 col-lg-5 order-1 order-lg-2 scale-2">
+								<img class="img-fluid box-shadow-3 my-2 border-radius" src="img/gallery/gallery-1.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</section>-->
+
+
+
+				<div class="container">
+					<div class="row py-5 my-5">
+						<div class="col">
+
+							<div class="owl-carousel owl-theme mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}">
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+								<div>
+									<img class="img-fluid opacity-2" src="{% static 'images/logos/logo-10.png' %}" alt="">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
+					<div class="container">
+						<div class="row" style="padding-bottom:30px;">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h2 class="font-weight-normal text-6 mb-0">Lorem ipsum <strong class="font-weight-extra-bold">dolor</strong> sit amet, consecteur<strong class="font-weight-extra-bold">Lorem</strong> ipsum!</h2>
+									<p class="mb-0">Lorem <strong class="font-weight-extra-bold">Ipsum</strong> sit amet, consecteur</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="#" target="_blank" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">ZOBACZ WIĘCEJ</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+<!-- KONIEC WSZYSTKO -->
+
+
+{% endblock %}

@@ -1,1 +1,2 @@
-# netbox_app
+# netbox_www
+Aplikacja web netbox
